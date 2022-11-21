@@ -1,0 +1,14 @@
+import turtle
+
+turtle.speed(0)
+
+turtle.bgcolor('black')
+
+for x in range (100):
+    turtle.circle(100,90-x)
+    turtle.right(180-x)
+    turtle.forward(100-x)
+
+turtle.hideturtle()
+
+turtle.Screen().exitonclick()

@@ -1,0 +1,17 @@
+import turtle
+
+turtle.speed(0)
+
+#setup
+turtle.setup (width=800, height=800, startx=50/2, starty=50/2)
+
+
+turtle.colormode(255)
+for x in range (255):
+    turtle.pencolor(0,255-x,0)
+    turtle.forward(x)
+    turtle.left(59)
+
+turtle.hideturtle()
+
+turtle.Screen().exitonclick()
